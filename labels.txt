@@ -1,0 +1,5 @@
+0 PMD
+1 Papier en karton
+2 GFT
+3 Glas
+4 Restafval
