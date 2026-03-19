@@ -17,8 +17,8 @@ st.markdown("""
         background: linear-gradient(135deg, #0e1117 0%, #1c2128 100%);
         color: white;
         background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Recycling_sign_green.png/960px-Recycling_sign_green.png");
-        background-repeat: no-repeat;
-        background-size: 300px 300px;
+        background-repeat: repeat-y;
+        background-size: 200px 200px;
     }
 
     /* Verwijder standaard Streamlit padding bovenaan */
