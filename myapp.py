@@ -16,9 +16,19 @@ st.markdown("""
     .stApp {
         background: linear-gradient(135deg, #0e1117 0%, #1c2128 100%);
         color: white;
-        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Recycling_sign_green.png/960px-Recycling_sign_green.png");
-        background-repeat: repeat-y;
-        background-size: 200px 200px;
+    }
+
+    .stApp::before {
+        content: "";
+        position: fixed;
+        top: 3.75rem;  /* clears the Streamlit Cloud navbar (~60px) */
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/93/Recycling_sign_green.png");
+        background-repeat: repeat;
+        background-size: 150px 150px;
+        opacity: 0.07;
     }
 
     /* Verwijder standaard Streamlit padding bovenaan */
