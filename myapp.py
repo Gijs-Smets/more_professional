@@ -18,10 +18,8 @@ st.markdown("""
         background-color: #0E1117;
         color: #FFFFFF;
         background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Recycling_sign_green.png/960px-Recycling_sign_green.png");
-        background-size: cover;
-        background-position: center;
         background-repeat: repeat;
-        background-attachment: fixed;
+        background-size: 50px 50px;
     }
 
     /* Titels wit maken */
