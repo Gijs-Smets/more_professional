@@ -15,36 +15,38 @@ st.markdown("""
     <style>
     /* De volledige achtergrond zwart */
     .stApp {
-        background-color: #0D2818;
-        color: #E8F5E0;
+        background-color: #0E1117;
+        color: #FFFFFF;
     }
 
     /* Titels wit maken */
     h1, h2, h3, p {
-        color: #E8F5E0 !important;
+        color: #FFFFFF !important;
     }
 
+    /* Witte kaarten met donkere randen voor de content */
     .stMarkdown, .stCameraInput, .stFileUploader, .stImage {
-        background-color: #163B26;
+        background-color: #161B22;
         padding: 1.5rem;
         border-radius: 15px;
-        border: 1px solid #2E6B45;
+        border: 1px solid #30363D;
         margin-bottom: 1rem;
     }
-    
+
+    /* Styling voor de knoppen onderaan */
     .stButton>button {
         width: 100%;
         border-radius: 10px;
         height: 3em;
         font-weight: bold;
-        background-color: #1E4D34;
-        color: #E8F5E0;
-        border: 1px solid #4CAF80;
+        background-color: #21262D;
+        color: white;
+        border: 1px solid #F0F6FC;
     }
-    
+
     .stButton>button:hover {
-        background-color: #2E6B45;
-        border-color: #7DCFA0;
+        background-color: #30363D;
+        border-color: #8B949E;
     }
     </style>
     """, unsafe_allow_html=True)
