@@ -14,7 +14,7 @@ st.markdown("""
     <style>
     /* Compacte achtergrond */
     html, body, .stApp {
-        background-color: #1A1D2E;
+        background-color: #0E1117;
         color: white;
     }
 
