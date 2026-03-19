@@ -13,7 +13,7 @@ st.set_page_config(page_title="SmartCycle AI", page_icon="♻️", layout="cente
 st.markdown("""
     <style>
     /* Compacte achtergrond */
-    html, body, .stApp {
+    .stApp {
         background-color: #0E1117;
         color: white;
     }
