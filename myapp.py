@@ -16,8 +16,10 @@ st.markdown("""
     .stApp {
         background: linear-gradient(135deg, #0e1117 0%, #1c2128 100%);
         color: white;
-        border-left: 5vw solid green;
-        border-right: 5vw solid green;
+        border-left: 10px solid green !important;
+        border-right: 10px solid green !important;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     /* Verwijder standaard Streamlit padding bovenaan */
