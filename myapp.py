@@ -1,6 +1,6 @@
 import streamlit as st
 import tensorflow as tf
-import tf_keras as keras  # Fix voor de DepthwiseConv2D error
+from tensorflow import keras
 from PIL import Image, ImageOps
 import numpy as np
 import os
