@@ -16,19 +16,8 @@ st.markdown("""
     .stApp {
         background: linear-gradient(135deg, #0e1117 0%, #1c2128 100%);
         color: white;
-    }
-
-    .stApp::before {
-        content: "";
-        position: fixed;
-        top: 3.75rem;  /* clears the Streamlit Cloud navbar (~60px) */
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/93/Recycling_sign_green.png");
-        background-repeat: repeat;
-        background-size: 150px 150px;
-        opacity: 0.07;
+        border-left: 5px solid green;
+        border-right: 5px solid green;
     }
 
     /* Verwijder standaard Streamlit padding bovenaan */
