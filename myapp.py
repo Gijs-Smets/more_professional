@@ -18,6 +18,8 @@ st.markdown("""
         color: white;
         border-left: 5px solid green;
         border-right: 5px solid green;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     /* Verwijder standaard Streamlit padding bovenaan */
