@@ -15,41 +15,36 @@ st.markdown("""
     <style>
     /* De volledige achtergrond zwart */
     .stApp {
-        background-color: #0E1117;
-        color: #FFFFFF;
-        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Recycling_sign_green.png/960px-Recycling_sign_green.png");
-        background-repeat: repeat;
-        background-size: 50px 50px;
+        background-color: #0D2818;
+        color: #E8F5E0;
     }
 
     /* Titels wit maken */
     h1, h2, h3, p {
-        color: #FFFFFF !important;
+        color: #E8F5E0 !important;
     }
 
-    /* Witte kaarten met donkere randen voor de content */
     .stMarkdown, .stCameraInput, .stFileUploader, .stImage {
-        background-color: #161B22;
+        background-color: #163B26;
         padding: 1.5rem;
         border-radius: 15px;
-        border: 1px solid #30363D;
+        border: 1px solid #2E6B45;
         margin-bottom: 1rem;
     }
-
-    /* Styling voor de knoppen onderaan */
+    
     .stButton>button {
         width: 100%;
         border-radius: 10px;
         height: 3em;
         font-weight: bold;
-        background-color: #21262D;
-        color: white;
-        border: 1px solid #F0F6FC;
+        background-color: #1E4D34;
+        color: #E8F5E0;
+        border: 1px solid #4CAF80;
     }
-
+    
     .stButton>button:hover {
-        background-color: #30363D;
-        border-color: #8B949E;
+        background-color: #2E6B45;
+        border-color: #7DCFA0;
     }
     </style>
     """, unsafe_allow_html=True)
